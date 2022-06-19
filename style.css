@@ -80,6 +80,14 @@ input {
   font-weight: 600;
 }
 
+.error-message {
+  display: none;
+  float: right;
+  margin: -0.5rem 0.3rem 0.5rem 0;
+  font-size: 80%;
+  color: red;
+}
+
 input[type="text"]:required:focus,
 input[type="email"]:required:focus,
 input[type="password"]:required:focus {
@@ -130,15 +138,6 @@ form p a {
   font-weight: 600;
   text-decoration: none;
   color: hsl(0, 100%, 74%);
-}
-
-.error-message {
-  display: none;
-  float: right;
-  margin: -0.5rem 0.3rem 0.5rem 0;
-  font-size: 80%;
-  color: red;
-  
 }
 
 @media only screen and (max-width: 375px) {
